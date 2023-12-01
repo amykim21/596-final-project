@@ -14,3 +14,9 @@ With the public, free release of ChatGPT 3.5 and other large language models, AI
 
 
 <img width="615" alt="Screen Shot 2023-12-01 at 3 33 53 PM" src="https://github.com/amykim21/596-final-project/assets/46797363/e13bd014-a81c-4a47-9fff-525d8928c06c">
+
+
+
+This project proposal aims to measure if the efficiency of large language models can be improved further, as trends have demonstrated data sets growing tens of times larger per iteration. 
+ChatGPT and other large language models (LLM) are not open source, making it difficult to modify code and run the models on different cores. LLaMA is open source and available to the public, allowing developers to apply for a license and modify code. 
+We plan to use a performance/load testing software tool which is used in industry to measure the efficiency of LLaMA. Some options that we are considering are Apache JMeter, LoadRunner, or other software tools specialized for large language models.

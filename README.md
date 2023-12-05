@@ -5,7 +5,7 @@
 CSCI 596
 Amy Kim, M.S. Computer Science
 Charley Kim, M.S. Computer Science
-
+Google Document with Version History: https://docs.google.com/document/d/1PM3ca_Wjz-vtdtdo7WhYXNgob15qKSx5RiR4ZqxVQJw/edit?usp=sharing
 
 # Abstract
 With the public, free release of ChatGPT 3.5 and other large language models, AI is being trained on larger and larger data sets with billions and potentially trillions of data points. Our project proposes running queries on different sizes of Meta’s Large Language Model Meta AI (LLaMA) using a different number of cores to measure and compare the efficiency of the models. As AI and language models are applied to more aspects of technological and daily life, developers turn to user larger data and training sets, making it important to balance the accuracy of language models with their size and efficiency. 
@@ -15,11 +15,11 @@ With the public, free release of ChatGPT 3.5 and other large language models, AI
 
 
 # Goals and Objectives:
-In a race to make the “smartest” AI, companies are focusing largely on the accuracy of their models over the efficiency. This project proposal aims to measure if the efficiency of large language models can be improved further while maintaining or improving accuracy, as trends have demonstrated data sets growing tens of times larger per iteration. We can gain insight into how real-world industry uses software tools to measure and enhance performance of their large language models and potentially see the limitations on size because of the sheer size of data sets, which AI developers do not seem to be largely concerned with yet. 
+In a race to make the “smartest” AI, companies are focusing largely on the accuracy of their models. This project proposal aims to measure if the efficiency of large language models can be improved further while maintaining or improving accuracy, as trends have demonstrated data sets growing tens of times larger per iteration. We can gain insight into how real-world industry uses software tools to measure and enhance performance of their large language models and potentially see the limitations on size because of the sheer size of data sets, which AI developers do not seem to be largely concerned with yet. 
 
 
 # Potential Obstacles:
-ChatGPT and other large language models (LLM) are not open source, making it difficult to modify code and run the models on different cores. LLaMA is open source and available to the public, allowing developers to apply for a license and modify code. LLaMA does require obtaining a license that is usually approved. 
+ChatGPT and other large language models (LLM) are not open source, making it difficult to modify code and run the models on different cores. LLaMA is open source and available to the public, allowing developers to apply for a license and modify code. LLaMA does require applying for and obtaining a commercial license.
 
 
 # Hypothesis:
@@ -32,7 +32,7 @@ Our hypothesis is partially supported by Meta’s publicly published data on mod
 
 
 # Procedure:
-Use a set of 5 queries to ask the language model on the 7B, 13B, and 70B sizes:
+Use a set of 5 queries to prompt the language model on the 7B, 13B, and 70B sizes:
 
 What is the value of pi?
 What is the weather like today?
@@ -45,10 +45,10 @@ For each of the model sizes and queries, run the code on 1, 2, 4, and 8 cores an
 This is an expected total of:
 3 models * 5 queries * 4 cores = 60 queries
 
-We plan to use a performance/load testing software tool which is used in industry to measure the efficiency of LLaMA. Some options that we are considering are Apache JMeter, LoadRunner, or other software tools specialized for large language models.
+We plan to use a performance/load testing software tool which is used in industry to measure the efficiency of LLaMA. Some options that we are considering are Apache JMeter, LoadRunner, TensorBoard, and NVIDIA Nsight Systems.
 
 We hope that the results show a pattern, such as if the time cost decreases as the number of cores used increases. Such results could aid in the development process and in business decisions, potentially changing approaches to the future of AI. However, if the time cost is random and does not show a pattern, it would be inappropriate to rely on this experiment to make decisions about how to optimize a large language model’s performance.
 
 
 # Potential Conclusions and Implications:
-As developers aim to make AI models even smarter, training and datasets will inevitably keep growing. This project will hopefully provide insight into whether training models on larger and larger datasets is worth increased costs, or if there might be a potential limit to improvement. With too few parameters, the model may not have enough accuracy, while too many parameters may be a waste of computational resources including processing power and memory.  Our work can potentially explore the optimal number of parameters which yield the best performance, not just for Meta’s LLaMA, but also for the wide array of AI being developed by various companies that are being integrated more and more into our daily lives. 
+As developers aim to make AI models even smarter, training and datasets will inevitably keep growing. This project will hopefully provide insight into whether training models on larger and larger datasets is worth increased costs, or if there might be a potential limit to improvement. With too few parameters, the model may not have enough accuracy, while too many parameters may be a waste of computational resources including processing power and memory. If the performance does not improve after a certain number of CPUs, then we can say that the benefit of adding more CPUs has plateaued. Our work can potentially explore the optimal number of parameters which yield the best performance, not just for Meta’s LLaMA, but also for the wide array of AI being developed by various companies that are being integrated more and more into our daily lives. 

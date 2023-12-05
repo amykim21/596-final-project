@@ -13,6 +13,7 @@ With the public, free release of ChatGPT 3.5 and other large language models, AI
 
 
 ![download](https://github.com/amykim21/596-final-project/assets/69876199/06f7d8fb-a11a-4d34-82cd-9f6dcc52d0c3)
+https://community.openai.com/t/gpt-4-is-it-real-or-a-meme/34007 
 
 
 # Goals and Objectives:
@@ -30,6 +31,8 @@ Our hypothesis is partially supported by Meta’s publicly published data on mod
 
 
 <img width="615" alt="Screen Shot 2023-12-01 at 3 33 53 PM" src="https://github.com/amykim21/596-final-project/assets/46797363/e13bd014-a81c-4a47-9fff-525d8928c06c">
+https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md 
+
 
 
 # Procedure:

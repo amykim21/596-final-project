@@ -5,6 +5,7 @@
 CSCI 596
 Amy Kim, M.S. Computer Science
 Charley Kim, M.S. Computer Science
+
 Google Document with Version History: https://docs.google.com/document/d/1PM3ca_Wjz-vtdtdo7WhYXNgob15qKSx5RiR4ZqxVQJw/edit?usp=sharing
 
 # Abstract
